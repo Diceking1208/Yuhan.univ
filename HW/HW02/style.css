@@ -65,11 +65,12 @@ img
 ul
 {
     list-style-position: inside;
-    margin-left: 40px;
     margin-top: 200px;
 }
 li
 {
     font-size: 24px;
     margin-top: 25px;
+    margin-left: 650px
+    
 }
