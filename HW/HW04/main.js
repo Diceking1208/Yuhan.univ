@@ -1,7 +1,7 @@
 var canvas = document.getElementById("GameScreenCanvas");
 var ctx = canvas.getContext("2d");
 
-var studentID = 202327069;
+var studentID = 1234567890;
 
 
 function drawNum(num) 
