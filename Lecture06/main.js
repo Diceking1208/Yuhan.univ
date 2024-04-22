@@ -12,7 +12,7 @@ class circle{
         this.positionY = positionY;
     }
     draw(){
-        ctx.save();
+        // ctx.save();
         ctx.beginPath();
 
         ctx.translate(this.positionX,this.positionY);
@@ -26,7 +26,7 @@ class circle{
         ctx.fill();
         
         ctx.closePath();        
-        ctx.restore();
+        // ctx.restore();
     }
 }
 
