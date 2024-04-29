@@ -18,14 +18,9 @@ class Heart {
         ctx.save(); // 현재 상태를 저장
     
         ctx.translate(this.positionX , this.positionY); // 위치 설정
-    
+        
         ctx.rotate(this.angle); // 회전 설정
         ctx.scale(this.size, this.size); // 크기 설정
-    
-        // 중심을 기준으로 회전하기 위해 하트의 좌표를 조정
-        const halfHeartWidth = 0.5; // 하트의 가로 크기의 절반
-        const halfHeartHeight = 0.75; // 하트의 세로 크기의 절반
-        ctx.translate(halfHeartWidth, halfHeartHeight); // 하트의 중심으로 이동
     
         ctx.beginPath(); // 새로운 경로 시작
     
