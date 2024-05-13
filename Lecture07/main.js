@@ -101,7 +101,6 @@ function draw()
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     a.update();
-    // b.update();
 
     ctx.save();
     ctx.translate(canvas.width / 2, canvas.height / 2);
@@ -114,14 +113,4 @@ function draw()
     requestAnimationFrame(draw);
 }
 
-// function GetKey(a)
-// {
-//     if('ArrowRight')
-//     {
-//         a.posX += 5;
-//     }
-// }
-
-// document.addEventListener('keydown')
-   
 draw();
