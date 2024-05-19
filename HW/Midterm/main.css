@@ -14,7 +14,7 @@ canvas
     margin-bottom: 50px;
 }
 
-.playbutton
+.playbutton 
 {
     position: absolute;
     top: 50%;
@@ -23,7 +23,7 @@ canvas
     text-align: center;
 }
 
-#start-button
+#start-button 
 {
     display: block;
     margin: auto;
@@ -53,3 +53,35 @@ h1
     color: white;
 }
 
+.die 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#restart-button 
+{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#restart-button:hover 
+{
+    background-color: #FF5733; 
+}
+
+#restart-button:active 
+{
+    background-color: #1E90FF; 
+}
