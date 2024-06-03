@@ -8,7 +8,8 @@ var triangleHeight = 150;
 var angle = 0; 
 var isRed = false; 
 
-function drawTriangle() {
+function drawTriangle()
+ {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.save();
     ctx.translate(centerX, centerY);
@@ -23,7 +24,9 @@ function drawTriangle() {
     if (isRed) 
     {
         ctx.fillStyle = "red";
-    } else {
+    } 
+    else 
+    {
         ctx.fillStyle = "blue";
     }
     ctx.fill();
@@ -45,7 +48,8 @@ canvas.addEventListener("click", function(event)
         y >= centerY - triangleHeight / 2 && y <= centerY + triangleHeight / 2) 
     {
         isRed = true;
-    } else 
+    } 
+    else 
     {
         isRed = false;
     }
